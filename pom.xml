@@ -14,7 +14,7 @@
 	<name>SOAP server</name>
 	<description>SOAP demo project for Spring Boot</description>
 	<properties>
-		<java.version>11</java.version>
+		<java.version>15</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -39,9 +39,9 @@
 
 	<profiles>
 		<profile>
-			<id>java11</id>
+			<id>java15</id>
 			<activation>
-				<jdk>[11,)</jdk>
+				<jdk>[15,)</jdk>
 			</activation>
 
 			<dependencies>
